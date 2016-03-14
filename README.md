@@ -1,4 +1,4 @@
-#Elixir/Erlang assignment
+#Elixir/Erlang experiment
 
 ##Installing and running the application
 
