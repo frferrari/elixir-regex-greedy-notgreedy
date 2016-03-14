@@ -1,0 +1,2 @@
+defmodule AlAssignment do
+end
