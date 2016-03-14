@@ -1,8 +1,8 @@
-defmodule AlAssignmentTest do
+defmodule ElregexTest do
 	use ExUnit.Case, async: false
 
 	import Patreg
-  doctest AlAssignment
+  doctest Elregex
 
 	setup_all do
 		{:ok, [	sample: [	"foo blah is a bar", 

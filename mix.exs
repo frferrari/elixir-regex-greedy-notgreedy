@@ -1,8 +1,8 @@
-defmodule AlAssignment.Mixfile do
+defmodule Elregex.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :al_assignment,
+    [app: :elregex,
      version: "0.0.1",
      elixir: "~> 1.2",
      escript: [main_module: Patreg],

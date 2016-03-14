@@ -4,9 +4,9 @@ defmodule Patreg do
 		mix escript.build
 
 	Run with: 
-		cat test.txt | al_assignment "bar %{0G} foo %{1}"
+		cat test.txt | elregex "bar %{0G} foo %{1}"
 		or
-		cat test.txt | al_assignment "bar %{0G} foo %{1}" --debug
+		cat test.txt | elregex "bar %{0G} foo %{1}" --debug
 
 	When --debug you will see each line of the input preceded by true of false
 	depending whether or not the line matched against the regex. Also when
@@ -28,7 +28,7 @@ defmodule Patreg do
 		else
 			IO.puts "Wrong arguments received on command line"
 			IO.puts "Usage :"
-			IO.puts "cat test.txt | al_assignment \"bar %{0G} foo %{1}\" [--debug]"
+			IO.puts "cat test.txt | elregex \"bar %{0G} foo %{1}\" [--debug]"
 		end
 	end
 

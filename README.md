@@ -6,7 +6,7 @@ You need Elixir to be installed on your computer
 
 Extract the given file and run the tests
 
-	mix test test/al_assignment_test.exs --trace
+	mix test test/elregex_test.exs --trace
 
 Compile the application :
 
@@ -14,8 +14,8 @@ Compile the application :
 
 Run the application :
 
-	cat test.txt | al_assignment "foo %{0} is a %{1}" 
+	cat test.txt | ./elregex "foo %{0} is a %{1}" 
 
 Run the application in debug mode :
 
-	cat test.txt | al_assignment "foo %{0} is a %{1}" --debug
+	cat test.txt | ./elregex "foo %{0} is a %{1}" --debug
